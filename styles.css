@@ -1,8 +1,77 @@
 body {
     background-color: #eee;
-    font-family: "Roboto", sans-serif ;
+    font-family: "Racing Sans One", sans-serif ;
+    color: rgb(85 87 102);
+    margin: 0;
 }
 
 #title {
+    font-size: 4rem;
+    margin-bottom: 0;
     color: #D40000;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 9px rgb(0 0 0 / 40%);
+    margin-top: 0px;
 }
+
+@media (max-width: 460px) {
+    #title {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+  }
+
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#img-div {
+    box-shadow: 3px 3px 4px rgb(0 0 0 / 50%);
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+#img-caption {
+    color: rgb(85 87 102);
+    font-family: "Orbitron";
+    text-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#emblem {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#img-Emblem {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(209, 205, 205);
+    background: rgb(85 87 102);
+}
+
+
