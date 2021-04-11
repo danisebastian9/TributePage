@@ -50,6 +50,18 @@ body {
     text-align: center;
 }
 
+#tribute-info {
+    margin: 25px;
+}
+
+#tribute-info h2 {
+    color: #D40000;
+    text-shadow: 3px 3px 9px rgb(0 0 0 / 40%);
+}
+
+#tribute-info li {
+    padding-bottom: 20px;
+}
 
 #emblem {
     max-width: 100%;
@@ -65,13 +77,34 @@ body {
     
 }
 
+#quote {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+#quote blockquote {
+    margin-bottom: 0;
+}
+
+#quote p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #D40000;
+    font-weight: bold;
+}
 
 footer {
+    font-family: "Orbitron", sans-serif;
+    padding: 5px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
+    font-size: 1.2rem;
     color: rgb(209, 205, 205);
     background: rgb(85 87 102);
 }
 
+a:visited {
+    color: inherit;
+}
 
