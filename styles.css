@@ -108,3 +108,12 @@ a:visited {
     color: inherit;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: #D40000;
+}
+
